@@ -58,6 +58,9 @@ Garbage Collection Successful!
 BUILD SUCCESSFUL (total time: 0 seconds)
 
 ```
+After GC Processing objects gc.gandhi.marksweep.MSObject@7852e922 and gc.gandhi.marksweep.MSObject@70dea4e are swept by the GC.
+After Compaction the memory space is made easily available for user to use.
+(Proper explanation is demonstrated below)
 
 # Sample output explanation
 
