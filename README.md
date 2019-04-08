@@ -13,10 +13,12 @@ Sweep phase :
 As the name suggests it “sweeps” the unreachable objects i.e. it clears the heap memory for all the unreachable objects. All those objects whose marked value is set to false are cleared from the heap memory, for all other objects (reachable objects) the marked bit is set to true.
 
 Advantages of Mark and Sweep Algorithm :
+
   --It handles the case with cyclic references, even in case of a cycle, this algorithm never ends up in an infinite loop.
   --There are no additional overheads incurred during the execution of the algorithm.
 
 Disadvantages of Mark and Sweep Algorithm :
+
   --The main disadvantage of the mark-and-sweep approach is the fact that that normal program execution is suspended while the  
     garbage collection algorithm runs.
   --Other disadvantage is that, after the Mark and Sweep Algorithm is run several times on a program, reachable objects end up
@@ -41,3 +43,11 @@ Disadvantages of Copying Strategy :
   --There is growing evidence that copying collectors are a poor choice for old objects in a typical desktop application. 
   --They often result in unnecessarily large memory footprints, and paging where none is really necessary. The net effect can be
     disastrous performance.
+
+# Sample output for Mark and Sweep Strategy
+
+
+# Sample output explanation
+
+![GC_1](https://user-images.githubusercontent.com/48925853/55736567-3203e180-5a41-11e9-8e6f-a334481eefcb.jpg)
+
