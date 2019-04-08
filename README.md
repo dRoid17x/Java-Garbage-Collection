@@ -45,9 +45,22 @@ Disadvantages of Copying Strategy :
     disastrous performance.
 
 # Sample output for Mark and Sweep Strategy
+```
+run:
+Garbage collection start
+[gc.gandhi.marksweep.MSObject@6d06d69c, gc.gandhi.marksweep.MSObject@7852e922, gc.gandhi.marksweep.MSObject@4e25154f, gc.gandhi.marksweep.MSObject@70dea4e, gc.gandhi.marksweep.MSObject@5c647e05]
+After GC Processing : 
+[gc.gandhi.marksweep.MSObject@6d06d69c, null, gc.gandhi.marksweep.MSObject@4e25154f, null, gc.gandhi.marksweep.MSObject@5c647e05]
+After Compaction : 
+[gc.gandhi.marksweep.MSObject@6d06d69c, gc.gandhi.marksweep.MSObject@4e25154f, gc.gandhi.marksweep.MSObject@5c647e05, null, null]
+Heap Pointer : 3
+Garbage Collection Successful!
+BUILD SUCCESSFUL (total time: 0 seconds)
 
+```
 
 # Sample output explanation
 
-![GC_1](https://user-images.githubusercontent.com/48925853/55736567-3203e180-5a41-11e9-8e6f-a334481eefcb.jpg)
+![GC_1](https://user-images.githubusercontent.com/48925853/55738361-9c6a5100-5a44-11e9-9404-5fcd76ed85ce.jpg)
+
 
