@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Memory {
 
-    private int size = 5;
+    private int size = 5; //This can be changed to any suitable value as required, this is the size of the Heap used
 
     private List<Pointer> staticArea;
 
