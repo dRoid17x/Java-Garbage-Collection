@@ -1,4 +1,4 @@
-# MarkSweepGC
+# Java Garbage Collection
 Java Garbage Collecton using Mark and Sweep Strategy and Copying Strategy
 
 # Overview
